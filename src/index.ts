@@ -83,7 +83,7 @@ export interface PinInputFieldProps {
   /**
    * Returns a callback function to register the field.
    */
-  ref: React.RefCallback<HTMLInputElement>
+  ref: React.Ref<HTMLInputElement>
   /**
    * Returns the value of the field.
    */
